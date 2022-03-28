@@ -287,6 +287,7 @@ export default function Home() {
               <a
                 href={OpenSeaLink}
                 target="_blank"
+                rel="noopener noreferrer"
                 className="px-4 py-2 text-center bg-gradient-to-t rounded-md from-[#03B6D4] to-[#3D82F6] text-white font-bold  "
               >
                 View on OpenSea
@@ -295,6 +296,7 @@ export default function Home() {
               <a
                 href={"https://rinkeby.etherscan.io/tx/" + transactionHash}
                 target="_blank"
+                rel="noopener noreferrer"
                 className="px-4 py-2  bg-gradient-to-t rounded-md from-[#03B6D4] to-[#3D82F6] text-white font-bold  "
               >
                 View transaction on EtherScan
