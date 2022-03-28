@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import cutString from "../functions/CutString";
 import { ethers } from "ethers";
-import myEpicNft from "../contracts/utils/myEpicNft.json";
+import myEpicNft from "../contracts/utils/MyEpicNFT.json";
 import { useRouter } from "next/router";
 import MoonLoader from "react-spinners/MoonLoader";
 
