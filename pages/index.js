@@ -15,7 +15,7 @@ export default function Home() {
   const [nbNftsMinted, setNbNftsMinted] = useState(0);
   const [loadMinting, setLoadMinting] = useState(false);
 
-  const CONTRACT_ADDRESS = "0x5B6d848F167132de5851dc2827266Cf75d1EB884";
+  const CONTRACT_ADDRESS = "0x8feF55a7A06d7994eA37fCf33F718c3A1eeEE049";
 
   const checkWalletConnected = async () => {
     if (typeof window !== "undefined") {
